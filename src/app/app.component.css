@@ -1,0 +1,284 @@
+/* main fonts */
+@font-face {
+    font-family: 'Young Serif';
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+/* section properties */
+section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 2vh;
+    background-color: white;
+}
+
+img{
+    width: 100%;
+}
+
+/* global <section> tag properties*/
+.info-container, .prep-container, .ingredients-container,
+.instruction-container, .nutrition-container{
+    
+    padding: 0 10vw;
+}
+
+/* global <p> <li> <h3> tag properties*/
+p, li, h3{
+    font-family: 'Outfit';
+}
+
+/* global <p> <li> tag properties*/
+p, li{
+    font-weight: 400;
+    font-size: 4vw;
+    color: var(--Wenge_Brown);
+    word-wrap: normal;
+}
+
+/* global <p> tag properties*/
+p{
+    margin: 0px;
+    margin-bottom: 3vh;
+}
+
+/* global font for <h1>, <h2>, <h3> properties */
+h1, h2, h3{
+    font-weight: 400;
+    margin-bottom: 2vh;
+}
+
+/* global font for <h1>, <h2> properties*/
+h1, h2{
+    font-family: 'Young Serif';
+}
+
+h1{
+    font-size: 9vw;
+}
+
+h2{
+    font-size: 7vw;
+    color: var(--Nutmeg);
+}
+
+h3{
+    color: var(--Dark_Raspberry);
+    padding: 0 5vw;
+    margin-top: 1vh;
+    font-weight: 600;
+    font-size: 4.5vw;
+}
+
+ul, ol{
+    margin-top: 0px;
+}
+
+li{
+    margin-bottom: 1vh;
+}
+
+/* Add padding to the left of each list item */
+ol li{
+    padding-left: 2vh;
+}
+
+.ingredients-container ul, .instruction-container ol{
+    padding-left: 5vw;
+}
+
+.ingredients-container{
+    margin-bottom: 0;
+}
+
+.break-line{
+    margin: 0 10vw;
+    border: 1px solid var(--Light_Grey);
+    margin-bottom: 4vh;
+}
+
+.instruction-container h2, .nutrition-container h2{
+    margin-top: 0;
+}
+
+/* prep properties */
+.prep-container{
+    padding: 1vh 1vw;
+    margin: 0 10vw;
+    background-color: var(--Rose_White);
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+
+.nutrition{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 1vh;
+    border-bottom: 1px solid var(--Light_Grey);
+}
+
+.nutrition p{
+    margin: 0;
+    margin-bottom: 1vh;
+}
+
+.nutrition .name{
+    margin-left: 10vw;
+}
+
+.nutrition .calories{
+    text-align: left;
+}
+
+.nutrition:nth-child(6){
+    border-bottom: 0px;
+}
+
+.attribution > p{ 
+    font-size: 2vw; 
+    text-align: center; 
+    padding: 0 10vw;
+    height: 3vh;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 481px) {
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15vh 0;
+    }
+
+    .container{
+        width: 50vw;
+        border-top-right-radius: 2vw;
+        border-top-left-radius: 2vw;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+    }
+
+    section{
+        padding: 3vh 3vw;
+    }
+
+    img{
+        border-top-right-radius: 1vw;
+        border-top-left-radius: 1vw;
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+    }
+
+    /* new global <section> tag properties*/
+    .info-container, .prep-container, .ingredients-container,
+    .instruction-container, .nutrition-container{
+        
+        padding: 0;
+    }
+
+    /* new global <p> <li> tag properties*/
+    p, li{
+        font-weight: 400;
+        font-size: 1.5vw;
+    }
+
+    /* new global <p> tag properties*/
+    p{
+        margin-bottom: 0;
+    }
+
+    h1, h2, h3{
+        font-weight: 400;
+        margin-bottom: 1vh;
+    }
+
+    h1{
+        font-size: 3vw;
+    }
+
+    h2{
+        font-size: 2.5vw;
+        color: var(--Nutmeg);
+    }
+
+    h3{
+        font-size: 2vw;
+        margin-top: 1.5vh;
+        padding: 0 3vw;
+    }
+
+    ul{
+        padding-left: 6vw;
+        margin-bottom: 1vh;
+    }
+
+    /* Add padding to the left of each list item */
+    ol li{
+        padding-left: 1vw;
+    }
+
+    ol{
+        margin-bottom: 0;
+    }
+
+    /* new prep properties */
+    .prep-container{
+        margin: 0;
+        border-top-right-radius: 1vw;
+        border-top-left-radius: 1vw;
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+    }
+
+    .ingredients-container ul, .instruction-container ol{
+        padding-left: 3vw;
+    }
+
+    .break-line{
+        width: 100%;
+        margin: 0;
+        border: 1px solid var(--Light_Grey);
+        margin-bottom: 2vh;
+    }
+
+    .nutrition{
+        display: grid;
+        grid-template-columns: 60%  40%;
+        margin-bottom: 1vh;
+        border-bottom: 1px solid var(--Light_Grey);
+    }
+    
+
+    .nutrition p{
+        margin: 0.5vh 0px;
+    }
+    
+    .nutrition .name{
+        margin-left: 5vw;
+    }
+    
+    .nutrition .calories{
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 901px) {
+
+    .attribution > p{ 
+        font-size: 1.5vw;
+    }
+}
