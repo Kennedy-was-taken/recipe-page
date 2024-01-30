@@ -1,5 +1,3 @@
-# Incomplete (Still in process)
-
 # Frontend Mentor - Recipe page solution
 
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
@@ -12,7 +10,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Author](#author)
 
 ## Overview
@@ -30,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub code solution URL](https://github.com/Kennedy-was-taken/recipe-page)
-<!-- - Live site Url : [Vercel QR code app](https://four-card-feature-section-master-zeta-snowy.vercel.app) -->
+- Live site Url : [Vercel QR code app](https://recipe-page-roan.vercel.app)
 
 
 ### Built with
@@ -40,9 +37,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - @media
-
-### What I learned
-
 
 ## Author
 
